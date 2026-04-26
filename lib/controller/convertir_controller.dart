@@ -3,7 +3,6 @@ import 'package:http/http.dart' as http;
 import '../model/temperatura_model.dart';
 
 class ConvertirController {
-  // Cambia esta URL por la de Render cuando la tengas
   static const String _apiUrl = 'https://proyectoflask-01-79m4.onrender.com/convertir';
 
   Future<TemperaturaModel> convertir(double celsius) async {
